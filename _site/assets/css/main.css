@@ -1,0 +1,118 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 300;
+    margin: 0 0 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.section-candy {
+    background-color:rgb(170, 255, 255);
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-white {
+    background-color: white;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-dark {
+    background-color: #141729;
+    width: 100%;
+    height: 500px;
+    padding: 50px 0;
+    text-align: center;
+    color: rgb(170, 255, 255);
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.description-me {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.projects {
+    margin: 0 auto;
+    width: 50%;
+    overflow: hidden;
+}
+
+.projects p {
+    font-size: 18px;
+    font-weight: 100;
+    margin: auto 10% 30px;
+}
+
+.project-webshop {
+    width: 33%;
+    height: 700px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0.5px solid #d8d8d8;
+    float: left;
+    color: black;
+}
+
+.project-bbng_mock {
+    width: 33%;
+    height: 700px;
+    background-color: white;
+    border-top: 0.5px solid #d8d8d8;
+    border-bottom: 0.5px solid #d8d8d8;
+    float: left;
+    color: black;
+}
+
+.project-portfolio_old {
+    width: 33%;
+    height: 700px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0.5px solid #d8d8d8;
+    float: left;
+    color: black;
+}
+
+.project-thumbnail {
+    width: 50%;
+    border: solid 1px black;
+    margin: 15%;
+}
+
+.notes {
+    padding-top: 350px;
+}
+
+.footer-div {
+    height: 100%;
+    width: 100%;
+    height: 2,5rem;
+}
