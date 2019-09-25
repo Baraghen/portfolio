@@ -161,14 +161,14 @@ a {
         border-bottom-left-radius: unset;
         border-bottom: none;
         width: 95%;
-        height: 550px;
+        height: 600px;
         margin: 0 auto;
     }
     
     .project-bbng_mock {
         border: 0.5px solid #d8d8d8;
         width: 95%;
-        height: 550px;
+        height: 600px;
         margin: 0 auto;
     }
     
@@ -179,13 +179,13 @@ a {
         border: 0.5px solid #d8d8d8;
         border-top: none;
         width: 95%;
-        height: 550px;
+        height: 600px;
         margin: 0 auto;
     }
 
     .project-thumbnail {
         width: 75%;
-        margin: 10px 5px;
+        margin: 40px 0;
     }
 }
 
@@ -206,7 +206,7 @@ a {
 
 @media (max-width: 425px){
     .notes {
-        padding-top: 300px;
+        padding-top: 500px;
         width: 95%;
     }
 }
