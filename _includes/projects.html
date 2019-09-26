@@ -1,26 +1,17 @@
 <section>
     <div class="section-dark">
         <h2>Projects</h2>
-        <div class="projects">
-            <div class="project-webshop">
-                <img class="project-thumbnail" src="/assets/img/webshop.png" alt="webshop-thumbnail">
-                <h3>Webshop</h3>
-                <p>This is a webshop that I made during my time at Nackademin. 
-                    It was part of our Javascript 2 course and this assignment was meant to teach us the basics of localStorage.</p>
-                <a class="linkBtn" href="https://baraghen.github.io/webshop/index.html" target="_blank" rel="noopener noreferrer">Check it out!</a>
+            <div class="projects">
+            {% for project in site.data.projects %}
+            <div class="project-{{ forloop.index }}">
+                <img class="project-thumbnail" src="{{ project.img }}" alt="{{ project.title }}-thumbnail">
+                <h3>{{ project.title }}</h3>
+                <p>{{ project.description }}</p>
+                <div class="project-button">
+                    <a class="project-link" href="{{ project.link }}" target="_blank" rel="noopener noreferrer">Check it out!</a>
+                </div>
             </div>
-            <div class="project-bbng_mock">
-                <img class="project-thumbnail" src="/assets/img/bbng_mock.png" alt="bbng_mock-thumbnail">
-                <h3>BBNG Mock Site</h3>
-                <p>This is a mock website I made for one of my favorite bands BADBADNOTGOOD. It was part of a assignment where we had to create a website for a band or a video game.</p>
-                <a class="linkBtn" href="https://hopeful-mirzakhani-9cff0a.netlify.com/" target="_blank" rel="noopener noreferrer">Check it out!</a>
-            </div>
-            <div class="project-portfolio_old">
-                <img class="project-thumbnail" src="/assets/img/portfolio_old.png" alt="portfolio_old-thumbnail">
-                <h3>Old Portfolio</h3>
-                <p>Here is my old portfolio that I made as part of another assignment. The focus here was to learn how to use Gatsby to create the website. We also got to try out Charts.js</p>
-                <a class="linkBtn" href="https://pedantic-jennings-533e55.netlify.com/" target="_blank" rel="noopener noreferrer">Check it out!</a>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>

@@ -22,7 +22,7 @@ a {
 }
 
 .section-candy {
-    background-color:rgb(0, 255, 255);
+    background-color:rgb(185, 255, 255);
     width: 100%;
     padding: 60px 0;
     text-align: center;
@@ -41,7 +41,7 @@ a {
     height: 500px;
     padding: 50px 0;
     text-align: center;
-    color: rgb(0, 255, 255);
+    color: rgb(185, 255, 255);
 }
 
 @media (max-width: 425px){
@@ -99,27 +99,7 @@ a {
     }
 }
 
-.linkBtn {
-    color: rgb(170, 255, 255);
-    border: 2px solid rgb(0, 255, 255);
-    padding: 5px;
-    border-radius: 7px;
-    font-weight: bolder;
-}
-
-.linkBtn:hover {
-    color: white;
-    background-color: rgb(0, 255, 255);
-    transition: 100ms linear;
-}
-
-.projects p {
-    font-size: 18px;
-    font-weight: 100;
-    margin: auto 10% 50px;
-}
-
-.project-webshop {
+.project-1 {
     width: 33%;
     height: 700px;
     background-color: white;
@@ -127,18 +107,20 @@ a {
     border-bottom-left-radius: 10px;
     border: 0.5px solid #d8d8d8;
     color: black;
+    position: relative;
 }
 
-.project-bbng_mock {
+.project-2 {
     width: 33%;
     height: 700px;
     background-color: white;
     border-top: 0.5px solid #d8d8d8;
     border-bottom: 0.5px solid #d8d8d8;
     color: black;
+    position: relative;
 }
 
-.project-portfolio_old {
+.project-3 {
     width: 33%;
     height: 700px;
     background-color: white;
@@ -146,6 +128,33 @@ a {
     border-bottom-right-radius: 10px;
     border: 0.5px solid #d8d8d8;
     color: black;
+    position: relative;
+}
+
+.project-button {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+}
+
+.project-link {
+    color: #141729;
+    border: 2px solid #141729;
+    padding: 5px;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+
+.project-link:hover {
+    color: white;
+    background-color: #141729;
+    transition: 100ms linear;
+}
+
+.projects p {
+    font-size: 18px;
+    font-weight: 100;
+    margin: auto 10% 0;
 }
 
 .project-thumbnail {
@@ -155,7 +164,7 @@ a {
 }
 
 @media (max-width: 425px){
-    .project-webshop {
+    .project-1 {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: unset;
@@ -163,16 +172,18 @@ a {
         width: 95%;
         height: 600px;
         margin: 0 auto;
+        position: relative;
     }
     
-    .project-bbng_mock {
+    .project-2 {
         border: 0.5px solid #d8d8d8;
         width: 95%;
         height: 600px;
         margin: 0 auto;
+        position: relative;
     }
     
-    .project-portfolio_old {
+    .project-3 {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-right-radius: unset;
@@ -181,11 +192,16 @@ a {
         width: 95%;
         height: 600px;
         margin: 0 auto;
+        position: relative;
     }
 
     .project-thumbnail {
         width: 75%;
         margin: 40px 0;
+    }
+
+    .project-button {
+        bottom: 8%;
     }
 }
 
@@ -216,6 +232,10 @@ a {
 .footer-links img {
     width: 75px;
     margin: 20px 100px 50px;
+}
+
+.outro {
+    font-size: 14px;
 }
 
 @media (max-width: 1024px){
