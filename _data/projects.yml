@@ -1,14 +1,14 @@
 - title: "Webshop"
-  description: "This is a webshop that I made during my time at Nackademin. It was part of our Javascript 2 course and this assignment was meant to teach us the basics of localStorage."
+  description: "This website was made as an assignment for our Javascript 2 course at Nackademin. The focus of this assignment was to learn the basics of localStorage."
   img: "/assets/img/webshop.png"
   link: "https://baraghen.github.io/webshop/index.html"
 
 - title: "BBNG Mock Site"
-  description: "This is a mock website I made for one of my favorite bands BADBADNOTGOOD. It was part of a assignment where we had to create a website for a band or a video game."
+  description: "I created this website for another project at Nackademin. Here we had to design a website for a band or a video game. I chose one of my favorite bands BADBADNOTGOOD."
   img: "/assets/img/bbng_mock.png"
   link: "https://hopeful-mirzakhani-9cff0a.netlify.com/"
 
 - title: "Old Portfolio"
-  description: "Here is my old portfolio that I made as part of another assignment. The focus here was to learn how to use Gatsby to create the website. We also got to try out Charts.js"
+  description: "Here is my old portfolio that I created using Gatsby unlike the current version that is made with Jekyll. During the process of making this website I also got to try out Charts.js."
   img: "/assets/img/portfolio_old.png"
   link: "https://pedantic-jennings-533e55.netlify.com/"
